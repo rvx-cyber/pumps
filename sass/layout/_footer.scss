@@ -1,0 +1,36 @@
+.footer{
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  background-color: white;
+  min-height: 20px;
+  font-size: 1.5rem;
+
+  .container{
+    margin: 0 auto;
+    max-width: 105rem;
+    width: 95%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 ;
+    @media (max-width: 1200px) {
+      max-width: 117rem;
+    }
+
+  }
+
+
+
+  p{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+  }
+
+  a{
+    display: flex;
+  }
+
+
+}
